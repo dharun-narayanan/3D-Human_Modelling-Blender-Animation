@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Responsive Bootstrap4 Blender Animation Project, Created by Dharun Narayanan and Vignesh">
+
+	<!-- title -->
+	<title>Dharun</title>
+
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="assets/img/crab.png">
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<!-- owl carousel -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<!-- magnific popup -->
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<!-- mean menu css -->
+	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
+	<!-- main style -->
+	<link rel="stylesheet" href="assets/css/main.css">
+	<!-- responsive -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+<body>
+	
+	<!--PreLoader-->
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="circle"></div>
+        </div>
+    </div>
+    <!--PreLoader Ends-->
+	
+	<!-- header -->
+	<div class="top-header-area" id="sticker">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-sm-12 text-center">
+					<div class="main-menu-wrap">
+						<!-- logo -->
+						<div class="site-logo">
+							<a href="index.html">
+								<img src="assets/img/logo.png" alt="">
+							</a>
+						</div>
+						<!-- logo -->
+
+						<!-- menu start -->
+						<nav class="main-menu">
+                            <ul>                                
+								<li>
+									<form class="form-inline">
+										<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="myInput">
+										<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+									</form>
+								</li>
+								<li class="current-list-item"><a href="index.html" class="bordered-btn">Home</a></li>
+							</ul>
+						</nav>                                
+						<!-- menu end -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end header -->
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i style="height: 30px; width: 30px;" class="fas fa-angle-double-up"></i></button>
+
+	<!-- search area -->
+
+	<!-- end search arewa -->
+	
+	<!-- breadcrumb-section -->
+	<div class="breadcrumb-section breadcrumb-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2 text-center">
+					<div class="breadcrumb-text">
+						<p> ANIMATED HUMAN-MODEL BLENDER </p>
+						<h1> DHARUN NARAYANAN L K </h1>
+						<h3> CB.EN.U4CSE19318 </h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end breadcrumb section -->
+
+
+	<!-- products -->
+	<div class="product-section mt-80 mb-80">
+		<div class="container">
+			<div style="margin: auto;justify-content: center;text-align: center;" class="row">
+                <div class="col-lg-12">
+                    <div class="product-filters">
+                        <div class="hero-btns">
+							<a href="#camp_fire" class="bordered-btn" onclick="setPlaySpeed()">Camp Fire</a>
+							<a href="#obstacle" class="bordered-btn" onclick="setPlaySpeed()">Obstacle</a>
+							<a href="#impress" class="bordered-btn" onclick="setPlaySpeed()">Impress</a>
+							<a href="#handshake" class="bordered-btn" onclick="setPlaySpeed()">Handshake</a>
+							<a href="#you_all" class="bordered-btn" onclick="setPlaySpeed()">You all</a>
+							<a href="#saw" class="bordered-btn" onclick="setPlaySpeed()">Saw</a>
+						</div>
+                    </div>
+                </div>
+            </div>
+			
+			<div id='camp_fire'>
+				<p><h3>Camp Fire</h3></p>
+				<div id='camp_fire' class="row product-lists">		
+					<div class="col-lg-6">
+						<video width="500" height="400" loop autoplay muted controls id="vid">
+							<source src="assets/img/products/camp_fire.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>	
+					<div id='obstacle' class="col-lg-6">
+						<video width="500" height="400" loop autoplay muted controls id="vid">
+							<source src="assets/img/products/camp_fire_og.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>			
+				</div>
+			</div>			
+			<br/><br/>
+
+			<div id='obstacle'>
+				<p><h3>Obstacle</h3></p>
+				<div id='obstacle' class="row product-lists">		
+					<div class="col-lg-6">
+						<video width="500" height="400" loop autoplay muted controls id="vid">
+							<source src="assets/img/products/obstacle.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>	
+					<div id='impress' class="col-lg-6">
+						<video width="500" height="400" loop autoplay muted controls id="vid">
+							<source src="assets/img/products/obstacle_og.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>			
+				</div>
+			</div>			
+			<br/><br/>
+
+			<div id='impress'>
+				<p><h3>Impress</h3></p>
+				<div id='impress' class="row product-lists">		
+					<div class="col-lg-6">
+						<video width="500" height="400" loop autoplay muted controls id="vid">
+							<source src="assets/img/products/impress.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>	
+					<div id='handshake' class="col-lg-6">
+						<video width="500" height="400" loop autoplay muted controls id="vid">
+							<source src="assets/img/products/impress_og.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>			
+				</div>
+			</div>			
+			<br/><br/>
+
+			<div id='handshake'>
+				<p><h3>Handshake</h3></p>
+				<div id='handshake' class="row product-lists">		
+					<div class="col-lg-6">
+						<video width="500" height="400" loop autoplay muted controls id="vid">
+							<source src="assets/img/products/handshake.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>	
+					<div id='you_all' class="col-lg-6">
+						<video width="500" height="400" loop autoplay muted controls id="vid">
+							<source src="assets/img/products/handshake_og.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>			
+				</div>
+			</div>			
+			<br/><br/>
+
+			<div id='you_all'>
+				<p><h3>You all</h3></p>
+				<div id='you_all' class="row product-lists">		
+					<div class="col-lg-6">
+						<video width="500" height="400" loop autoplay muted controls id="vid">
+							<source src="assets/img/products/you_all.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>	
+					<div class="col-lg-6">
+						<video width="500" height="400" loop autoplay muted controls id="vid">
+							<source src="assets/img/products/you_all_og.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>			
+				</div>
+			</div>			
+			<br/><br/>
+
+			<div id='saw'>
+				<p><h3>Saw</h3></p>
+				<div id='saw' class="row product-lists">		
+					<div class="col-lg-6">
+						<video width="500" height="400" loop autoplay muted controls id="vid">
+							<source src="assets/img/products/saw.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>	
+					<div class="col-lg-6">
+						<video width="500" height="400" loop autoplay muted controls id="vid">
+							<source src="assets/img/products/saw_og.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>			
+				</div>
+			</div>			
+			<br/><br/>
+			
+		</div>
+	</div>
+	<!-- end products -->
+
+	
+	<!-- jquery -->
+	<script src="assets/js/jquery-1.11.3.min.js"></script>
+	<!-- bootstrap -->
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- count down -->
+	<script src="assets/js/jquery.countdown.js"></script>
+	<!-- isotope -->
+	<script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
+	<!-- waypoints -->
+	<script src="assets/js/waypoints.js"></script>
+	<!-- owl carousel -->
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<!-- magnific popup -->
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<!-- mean menu -->
+	<script src="assets/js/jquery.meanmenu.min.js"></script>
+	<!-- sticker js -->
+	<script src="assets/js/sticker.js"></script>
+	<!-- main js -->
+	<script src="assets/js/main.js"></script>
+
+	<script>
+		var vidd = document.getElementById('vid').play();
+		function setPlaySpeed() { 
+          vidd.playbackRate = 0.5;
+        } 
+	</script>
+
+	<script>
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+		
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+		
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		  smoothScroll.init();
+		}
+	</script>
+
+    <script>
+	function myFunction() {
+		var input, filter, ul, li, a, i, txtValue;
+		input = document.getElementById("myInput");
+		filter = input.value.toUpperCase();
+		ul = document.getElementById("myUL");
+		li = ul.getElementsByTagName("li");
+		for (i = 0; i < li.length; i++) {
+			a = li[i].getElementsByTagName("a")[0];
+			txtValue = a.textContent || a.innerText;
+			if (txtValue.toUpperCase().indexOf(filter) > -1) {
+				li[i].style.display = "";
+			} else {
+				li[i].style.display = "none";
+			}
+		}
+	}
+	</script>
+</body>
+</html>
